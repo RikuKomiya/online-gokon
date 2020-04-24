@@ -6,16 +6,14 @@ import ProTip from '~/layout/ProTip'
 import Link from '~/layout/Link'
 import Copyright from '~/layout/Copyright'
 
-export default function Index() {
+export default function About() {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          this is homepage
+          this is about page
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
+        <Link href="/">Go to the main page</Link>
         <ProTip />
         <Copyright />
       </Box>
