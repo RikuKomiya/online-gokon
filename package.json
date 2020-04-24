@@ -12,7 +12,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "install": "^0.13.0",
     "next": "9.3.5",
+    "npm": "^6.14.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
